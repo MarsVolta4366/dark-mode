@@ -1,6 +1,6 @@
 // Activity: https://dev.to/joefstack/how-to-do-dark-mode-with-react-hooks-23gi
-import './App.css';
-import ThemeToggle from './ThemeToggle';
+import './App.css'
+import ThemeToggle from './ThemeToggle'
 
 function App() {
 

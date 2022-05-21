@@ -11,6 +11,9 @@ const ThemeToggle = () => {
     )
 
     useEffect(() => {
+        // If theme is null in localStorage, set it to light by default
+        localStorage.getItem("theme") === null && localStorage.setItem("theme", "light")
+
         document.getElementsByTagName("HTML")[0]
             .setAttribute("data-theme", localStorage.getItem("theme"))
     }, [])
